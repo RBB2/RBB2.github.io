@@ -1,5 +1,7 @@
 /* NAV */
-
+.navbar {
+    position: fixed;
+}
 
 #header h1 {
     font-family: 'Vollkorn', serif;
@@ -60,12 +62,30 @@ a:hover {
     text-decoration: none;
 }
 
+/** LISTS **/
 ul {
     padding-top: 8vh;
     padding-bottom: 10vh;
     list-style-type: none;
     /*font-family: 'Racing Sans One', cursive;*/
     font-family: 'Roboto', sans-serif;
+}
+
+#currently{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: circle;
+    padding: 0;
+}
+
+/** DIVS **/
+#general-about {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#currently-about {
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 #boxed {
@@ -99,7 +119,12 @@ p {
     margin-right: auto;
     display: block;
 }
-
+.projImg {
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .workImg {
     width: 30vw;
     height: auto;
@@ -124,14 +149,6 @@ p {
     height: auto;
 
     display: block;
-}
-
-#currently{
-    font-family: 'Roboto', sans-serif;
-    list-style-type: circle;
-    padding: 0;
-
-
 }
 
 /* HEADINGS */
