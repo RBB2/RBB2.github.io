@@ -1,0 +1,57 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="test.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<div class="spacer-3"></div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-8" align="center">
+			<h1>RYAN BARTRUFF</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6" align="center">
+			<h5>Welcome to my Website</h5>
+		</div>
+	</div>
+</div>
+<div class="spacer-2"></div>
+<div class="container">
+	<div class="row">
+		<ul class="col-md-4">
+			<div class="list-group list-group-flush" id="myList">
+			  <li class="list-group-item"><a href="#work">Work</a></li>
+			  <li class="list-group-item"><a href="#about">About</a></li>
+			  <li class="list-group-item"><a href="#contact">Contact</a></li>
+			  <li class="list-group-item"><a href="#resume">Resume</a></li>
+			</div>
+		</ul>
+		<div class="col-md-8">
+			  <div class="tab-pane fade" id="work">Take a look at some of the work I've done in computer science, design, and others.</div>
+			  <div class="tab-pane fade" id="about">Learn more about me and what I love.</div>
+			  <div class="tab-pane fade" id="contact">Lets chat!</div>
+			  <div class="tab-pane fade" id="resume">Would you like to hire me?</div>
+		</div>
+	</div>
+</div>
+
+	
+<script src="test.js"></script>
+
+<script>
+
+	$('#myList a').on('click', function (e) {
+  		e.preventDefault()
+  		$(this).tab('show')
+	})
+</script>
+</body>
+</html>
