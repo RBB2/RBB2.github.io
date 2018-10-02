@@ -98,6 +98,20 @@ p {
     display: block;
 }
 
+#projects{
+  align-items: center;
+  background-image: url("imgs/Ryan.png");
+  color: #ffffff;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .homeLink {
     width: 50px;
     height: auto;
@@ -105,9 +119,11 @@ p {
     display: block;
 }
 
-#currently ul {
+#currently{
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
+    padding: 0;
+
 
 }
 
