@@ -91,11 +91,18 @@ p {
     display: none;
 }
 
+/** IMAGES **/
+
 .startImg {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.workImg {
+    width: 30vw;
+    height: auto;
 }
 
 #projects{
