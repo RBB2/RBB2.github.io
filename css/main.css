@@ -171,6 +171,9 @@ p {
     display:block;
 }
 
+#about-header {
+}
+
 #work {
     align-items: center;
     display:block;
@@ -180,6 +183,7 @@ p {
 #work-contain {
     display:inline-block;
 }
+
 
 /* HEADINGS */
 h3 {
