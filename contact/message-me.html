@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!-- CHANGE FOR EACH PAGE -->
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Inconsolata|Khula:800|Racing+Sans+One|Raleway:900i|Vollkorn:700i" rel="stylesheet">
+        <link rel="icon" href="../imgs/icon.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    </head>
+    <body>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <ul class="navigation" id="nav">
+                  <li class="showSingle" id="start" target="work"><a href="../index.html">HOME</a></li>
+                  <div class="spacer-7"></div>
+                  <li class="showSingle" id="start" target="work"><a href="../work.html">WORK</a></li>
+                  <div class="spacer-7"></div>
+                  <li class="showSingle" id="start" target="about"><a href="../about.html">ABOUT</a></li>
+                  <div class="spacer-7"></div>
+                  <li class="showSingle" id="start" target="contact"><a href="../contact.html">CONTACT</a></li>
+                  <div class="spacer-7"></div>
+                  <li class="showSingle" id="start" target="resume"><a href="../resume.html">RESUME</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="../imgs/icon.png" class="homeLink"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            
+        </div>
+        <div class="col-8" align="center" id="header">
+            <h1>Message Me!</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6" align="center">
+            <h5>I will get back to you as soon as I can.</h5>
+            <br/>
+            <h6> - - - - - - - This is currently under construction and your message will not actually be sent. It will be up soon! - - - - - - - </h6>
+        </div>
+    </div>
+    </div>
+    <div class="spacer-2"></div>
+
+    <div class="container" id="message">
+    <form id="contact-form" method="post" action="contact.php" role="form">
+
+        <div class="messages"></div>
+
+        <div class="controls">
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12" align="center">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+            </div>
+        </div>
+
+    </form>
+    </div>
+
+        <!-- LOAD SCRIPTS -->
+        <script src="js/jQuery.js"></script>
+        <script src="js/variables.js"></script>
+        <script src="js/pageBuilder.js"></script>
+            
+    </body>
+</html>
