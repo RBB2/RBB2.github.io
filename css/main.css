@@ -1,6 +1,7 @@
 /* NAV */
-.navbar {
+.pos-f-t {
     position: fixed;
+    padding-left: 35px;
 }
 
 #header h1 {
@@ -64,8 +65,10 @@ a:hover {
 
 /** LISTS **/
 ul {
-    padding-top: 8vh;
-    padding-bottom: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-left: 0;
     list-style-type: none;
     /*font-family: 'Racing Sans One', cursive;*/
     font-family: 'Roboto', sans-serif;
@@ -126,8 +129,15 @@ p {
     display: block;
 }
 .workImg {
-    height: 30vh;
+    height: 200px;
     width: auto;
+}
+
+#work-contain {
+    object-fit: none;
+    object-position: 50% 50%;
+    width: 300px;
+    overflow: hidden;
 }
 
 #projects{
@@ -151,6 +161,26 @@ p {
     display: block;
 }
 
+#resume {
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 150px;
+}
+
+#about {
+    display:block;
+}
+
+#work {
+    align-items: center;
+    display:block;
+    padding-left: 150px;
+}
+
+#work-contain {
+    display:inline-block;
+}
+
 /* HEADINGS */
 h3 {
     text-decoration: none;
@@ -162,32 +192,18 @@ h4 {
 
 }
 
+.right-subtitle {
+    font-family: 'Playfair Display', serif;
+}
+
 button {
     padding: 0;
     border: none;
     background: none;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: white;
-  text-shadow: 0.5px 0.5px 0.5px #000000;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: gray;
-}
-
 #imgLink:hover {
     color: black;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
 }
 
 /* Centered text */
