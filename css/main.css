@@ -126,8 +126,8 @@ p {
     display: block;
 }
 .workImg {
-    width: 30vw;
-    height: auto;
+    height: 30vh;
+    width: auto;
 }
 
 #projects{
@@ -166,4 +166,36 @@ button {
     padding: 0;
     border: none;
     background: none;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: gray;
+}
+
+#imgLink:hover {
+    color: black;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    color:white;
 }
