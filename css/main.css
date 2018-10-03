@@ -169,6 +169,7 @@ p {
 
 #about {
     display:block;
+    padding-top: 0;
 }
 
 #about-header {
