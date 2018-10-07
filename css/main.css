@@ -8,6 +8,10 @@
     font-family: 'Vollkorn', serif;
 }
 
+#currently h3 {
+    font-family: 'Vollkorn', serif;
+}
+
 #my-item li {
     float: left;
 }
