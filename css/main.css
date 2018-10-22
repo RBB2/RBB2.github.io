@@ -179,7 +179,8 @@ p {
 }
 
 .homeLink {
-    width: 50px;
+    padding-top: 1vh;
+    width: 120px;
     height: auto;
 
     display: block;
