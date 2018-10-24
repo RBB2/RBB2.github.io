@@ -1,9 +1,27 @@
 /* NAV */
-.pos-f-t {
-    position: fixed;
-    margin-left: 35px;
+#navbar {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-align: center;
+
 }
-.nav {
+
+#navbar a {
+    color: black;
+    font-size: 1.0em;
+    font-weight: 800;
+    padding: 1.25em;
+    text-transform: uppercase;
+}
+
+#navbar a:hover {
+    color: #CED0CE;
+}
+
+#header-top {
+    margin-bottom: 30px;
+    background: white;
 }
 
 #header h1 {
@@ -12,18 +30,6 @@
 
 #currently h3 {
     font-family: 'Vollkorn', serif;
-}
-
-#my-item li {
-    float: left;
-}
-
-#my-nav ul {
-    list-style-type: none;
-}
-
-#my-item li a {
-    display: block;
 }
 /* SPACERS */
 .spacer-1 {
@@ -71,8 +77,6 @@ a:hover {
 
 /** LISTS **/
 ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-right: 0;
     padding-left: 0;
     list-style-type: none;
@@ -117,11 +121,6 @@ ul {
     margin-right: 15vw;
 }
 
-#boxed {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    font-family: 'Inconsolata', monospace;
-}
 
 #footer {
     font-family: 'Inconsolata', monospace;
