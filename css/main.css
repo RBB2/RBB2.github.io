@@ -1,6 +1,9 @@
 /* NAV */
 .pos-f-t {
     position: fixed;
+    margin-left: 35px;
+}
+.nav {
 }
 
 #header h1 {
