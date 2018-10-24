@@ -4,14 +4,13 @@
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     text-align: center;
-
 }
 
 #navbar a {
     color: black;
     font-size: 1.0em;
     font-weight: 800;
-    padding: 1.25em;
+    padding: 1em;
     text-transform: uppercase;
 }
 
