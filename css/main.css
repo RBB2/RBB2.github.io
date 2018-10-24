@@ -140,6 +140,12 @@ p {
 /** IMAGES **/
 
 .startImg {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.resumeImg {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
